@@ -1,0 +1,18 @@
+.sidebar{
+    width: 25%;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.sidebar h2{
+    font-size: 18px;
+}
+
+.sidebar ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar li{
+    margin: 10px 0;
+}

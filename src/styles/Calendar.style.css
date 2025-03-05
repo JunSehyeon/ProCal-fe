@@ -1,0 +1,36 @@
+.calendar {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .search-bar input {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h1 span {
+    color: gray;
+  }
+  
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+
+  
