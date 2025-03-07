@@ -1,13 +1,17 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import "../styles/Detailpage.style.css"
 
 const Detailpage = () => {
   const { examType } = useParams();
 
   return (
-    <div>
-      <h1>{examType}</h1>
-      <p>{examType} 시험에 대한 상세 페이지입니다.</p>
+    <div className="detailpage">
+      <h1 className="detailpage-examtitle">{examType}</h1>
+      <Link to="#" className="detailpage-examlink">{examType} 시험 신청 사이트 바로가기</Link>
+
+      <p>시험후기</p>
+      <p>시험 TIP</p>
     </div>
   );
 };
